@@ -1,0 +1,151 @@
+{
+  "manuscript": "v23",
+  "implementation_version": "1.0.0",
+  "unit_tests": {
+    "passed": true,
+    "count": 19
+  },
+  "results_with_official_local_annotations": {
+    "passed": true,
+    "portable_splits": 15,
+    "joint_runs": 390,
+    "joint_predictions": 179290,
+    "component_runs": 125,
+    "component_predictions": 62250,
+    "baseline_runs": 36,
+    "baseline_predictions": 16002,
+    "table_cells": 108,
+    "figure2_points": 25,
+    "W_gains_vs_Ridge63": 24,
+    "validation_selections_checked": 148,
+    "maximum_metric_absolute_error": 6.259992524348945e-13,
+    "scope": "Result recomputation; model search/refitting and bootstrap regeneration have separate commands and audits."
+  },
+  "core_search_with_archived_local_features": {
+    "passed": true,
+    "execution_completed": true,
+    "all_feature_fingerprints_match_archive": true,
+    "predictions_match_archive": true,
+    "selected_parameters_match_archive": true,
+    "configurations": 25,
+    "models": 175,
+    "maximum_prediction_absolute_error": 4.0939474033052647e-13,
+    "validation_search_configurations": 25,
+    "feature_extraction_rerun": false,
+    "python": "3.13.12",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.2"
+  },
+  "regenerated_bootstrap": {
+    "passed": true,
+    "comparisons_checked": 24,
+    "checks": [
+      {
+        "dataset": "AGIQA-3K",
+        "resamples": 10000,
+        "methods": 10,
+        "maximum_draw_error": 0.0
+      },
+      {
+        "dataset": "AIGCIQA2023",
+        "resamples": 10000,
+        "methods": 10,
+        "maximum_draw_error": 0.0
+      },
+      {
+        "dataset": "AGIQA-3K-full",
+        "resamples": 10000,
+        "methods": 10,
+        "maximum_draw_error": 0.0
+      }
+    ],
+    "scope": "Conditional on fixed fitted predictions; method-development uncertainty is excluded."
+  },
+  "preservation": {
+    "passed": true,
+    "predictions": [
+      {
+        "file": "predictions.csv.gz",
+        "rows": 179290,
+        "non_target_values_unchanged": true
+      },
+      {
+        "file": "fixed_component_predictions.csv.gz",
+        "rows": 62250,
+        "non_target_values_unchanged": true
+      },
+      {
+        "file": "baseline_predictions.csv.gz",
+        "rows": 16002,
+        "non_target_values_unchanged": true
+      }
+    ],
+    "split_assignments_unchanged": 15,
+    "local_targets_exactly_match_frozen_splits": true,
+    "gc_ridge_core_unchanged": true
+  },
+  "new_encoder_smoke": {
+    "device": "cuda",
+    "torch": "2.10.0+cu128",
+    "torchvision": "0.25.0+cu128",
+    "pillow": "12.2.0",
+    "encoder_dtype": "torch.float16",
+    "encoder_checkpoint_sha256": "afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762",
+    "rows": 7,
+    "dimensions": 1024,
+    "batch_size": 8,
+    "scope": "RN50 smoke test on existing AGIQA figure-example images; not full dataset re-extraction.",
+    "maximum_feature_error_against_archive": 0.0004537254571914673,
+    "execution_passed": true,
+    "archive_regression_passed": false,
+    "threshold": 1e-05,
+    "interpretation": "The local extraction executes; exact agreement with the archived features is a separate check."
+  },
+  "scope": "Human annotations are imported locally. All core search/refit checks use archived local features; new RN50 extraction is tested separately on a small image set, not all images or ViT-B/32.",
+  "clean_zip_environment": {
+    "passed": true,
+    "python": "3.13.12",
+    "system_site_packages": false,
+    "dependencies": "Only the six locked CPU runtime packages.",
+    "checks": [
+      "tests",
+      "labels",
+      "results",
+      "fit_all",
+      "predict"
+    ],
+    "results": {
+      "passed": true,
+      "portable_splits": 15,
+      "joint_runs": 390,
+      "joint_predictions": 179290,
+      "component_runs": 125,
+      "component_predictions": 62250,
+      "baseline_runs": 36,
+      "baseline_predictions": 16002,
+      "table_cells": 108,
+      "figure2_points": 25,
+      "W_gains_vs_Ridge63": 24,
+      "validation_selections_checked": 148,
+      "maximum_metric_absolute_error": 6.259992524348945e-13,
+      "scope": "Result recomputation; model search/refitting and bootstrap regeneration have separate commands and audits."
+    },
+    "fit": {
+      "passed": true,
+      "execution_completed": true,
+      "all_feature_fingerprints_match_archive": true,
+      "predictions_match_archive": true,
+      "selected_parameters_match_archive": null,
+      "configurations": 25,
+      "models": 175,
+      "maximum_prediction_absolute_error": 4.0939474033052647e-13,
+      "validation_search_configurations": 0,
+      "feature_extraction_rerun": false,
+      "python": "3.13.12",
+      "numpy": "2.4.4",
+      "scipy": "1.17.1",
+      "pandas": "3.0.2"
+    }
+  }
+}
