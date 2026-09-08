@@ -1,0 +1,17 @@
+{
+  "AGIQA-3K-full": {
+    "rows": 2982,
+    "sha256_at_12_decimals": "27134f2a6cab117400e335d2740eb8edf684388dc883fb2f4b52aefd75b9e1c9",
+    "rounding": "AIGCIQA2023: float(format(moz1 / 100, '.12f')); AGIQA: official mos_quality."
+  },
+  "AGIQA-3K": {
+    "rows": 2190,
+    "sha256_at_12_decimals": "d0fd250fea6238bf295890c218d1358cd87d400ebd0f537e3f012c5fb7387a10",
+    "rounding": "AIGCIQA2023: float(format(moz1 / 100, '.12f')); AGIQA: official mos_quality."
+  },
+  "AIGCIQA2023": {
+    "rows": 2400,
+    "sha256_at_12_decimals": "98eb6d7b1aac168870dddda150ca48fd783d12c3e0f0365c60a3415d8fe55380",
+    "rounding": "AIGCIQA2023: float(format(moz1 / 100, '.12f')); AGIQA: official mos_quality."
+  }
+}

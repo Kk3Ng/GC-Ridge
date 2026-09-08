@@ -1,0 +1,27 @@
+{
+  "agiqa_subset_RN50": {
+    "rows": 2190,
+    "dimensions": 1024,
+    "sha256": "c6f5c1ffe3a09f3ea614645fa3bf585ddc84ae6fe6509d7f692c4de17accd7ba"
+  },
+  "agiqa_full_RN50": {
+    "rows": 2982,
+    "dimensions": 1024,
+    "sha256": "a4427c82d1f0ea0024d8e9a44f8fbcfe94c8231d32e83a0c332258f123a03efb"
+  },
+  "aigciqa2023_RN50": {
+    "rows": 2400,
+    "dimensions": 1024,
+    "sha256": "86a5507a4699779562579835204171f80038dae3ab53346b50a22c31d80569be"
+  },
+  "agiqa_subset_ViT-B-32": {
+    "rows": 2190,
+    "dimensions": 512,
+    "sha256": "6b6a4f32a4d9651e16838215ffeb6fd1ba29810d3fcbbaf3f29c6aff66b24062"
+  },
+  "aigciqa2023_ViT-B-32": {
+    "rows": 2400,
+    "dimensions": 512,
+    "sha256": "617a449dac82281c41b657730bcfd0fb112f68fbc9e270429304b7e22994e89d"
+  }
+}
