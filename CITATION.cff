@@ -14,7 +14,12 @@ preferred-citation:
   authors:
     - family-names: "Gao"
       given-names: "Le"
+      orcid: "https://orcid.org/0009-0004-7859-5769"
     - family-names: "Sang"
       given-names: "Qingbing"
+      orcid: "https://orcid.org/0000-0001-7384-1650"
+    - family-names: "Fang"
+      given-names: "Yue"
+      orcid: "https://orcid.org/0009-0001-4008-6369"
   year: 2026
-  notes: "Manuscript v23."
+  notes: "Manuscript v26. Research text, tables and figure assets are unchanged from v23."

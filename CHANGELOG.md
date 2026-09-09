@@ -1,4 +1,11 @@
-# Version 1.0.0
+# Changelog
+
+## Documentation update — 2026-09-09
+
+- Update the associated manuscript to v26 and its author order to Le Gao, Qingbing Sang, and Yue Fang; add their ORCID identifiers to the preferred paper citation.
+- Clarify that the implementation, research text, tables and figure assets are unchanged. Version 1.0.0, its tagged release and its original verification record remain preserved.
+
+## Version 1.0.0
 
 - CPU GC-Ridge implementation, validation selection, component controls and prediction API.
 - Fixed study splits, validation traces, model predictions, aggregate results and bootstrap draws.

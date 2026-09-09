@@ -13,7 +13,9 @@ Local images -> frozen CLIP -> normalized features -> one quality score
                   selection: validation-only pooled-retention rule
 ```
 
-Associated manuscript: *Generator-Centered Ridge Regression for AI-Generated Image Quality Assessment*, Le Gao and Qingbing Sang, manuscript v23. Citation metadata is in `CITATION.cff`.
+Associated manuscript: *Generator-Centered Ridge Regression for AI-Generated Image Quality Assessment*, Le Gao, Qingbing Sang, and Yue Fang, manuscript v26. Citation metadata is in `CITATION.cff`.
+
+The v26 author order is Le Gao, Qingbing Sang (corresponding author), and Yue Fang. Its research text, tables and figure assets are unchanged from v23. The implementation remains version 1.0.0; the tagged release and `VERIFICATION.json` retain the original v23 verification record.
 
 ## Quick start
 
